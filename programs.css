@@ -1,0 +1,312 @@
+  .p1 {
+    background: url("img/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    min-height: 100vh;
+  }
+
+
+  .navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .navbar .logo img {
+    width: 120px;
+    height: auto;
+    padding-top: 15px;
+  }
+
+
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+
+  .yyyy {
+    position: relative;
+    display: inline-block;
+    padding-left: 18px;
+  }
+
+  #aaa {
+    font-size: 50px;
+    position: relative;
+    z-index: 2;
+    font-style: italic;
+  }
+
+  .zzzz {
+    position: absolute;
+    background-color: #ff0000;
+    height: 28px;
+    width: 95%;
+    bottom: 25px;
+    left: 23px;
+    z-index: 1;
+    border-radius: 1px;
+
+  }
+
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+
+  .navbar ul li a:hover {
+    color: #ff0000;
+  }
+
+
+  .bgd-text {
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 500px;
+    z-index: 2;
+  }
+
+  .bgd-text h1 {
+    font-size: 3.2rem;
+    margin: 0 0 20px 0;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  .bgd-text h1 span {
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 1.2;
+  }
+
+  .bgd-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dddddd;
+    letter-spacing: 0.3px;
+  }
+
+
+  .photo-img {
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    max-width: 40%;
+    height: auto;
+    z-index: 1;
+  }
+
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .all {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+
+  .programs h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .card {
+    background: #111;
+    width: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.5);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card .name {
+    font-size: 1.5rem;
+    font-weight:400;
+    margin: 15px 0 10px;
+    color: #fff;
+    text-transform: capitalize;
+  }
+  
+  .card p {
+    color: #bbb;
+    font-size: 0.9rem;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    height: 70px;
+  }
+
+  .card button {
+    background: #e00000;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 25px;
+  }
+
+  .card button:hover {
+    background: #ff3c3c;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    height: 50px;
+  }
+
+  .membership {
+    margin-bottom: 30px;
+  }
+
+
+  .membership h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+
+  .card.pro {
+    background-color: #b92a30;
+  }
+
+  .card .name {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10 0 0 0;
+    text-transform: capitalize;
+  }
+
+  span {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 0.2rem;
+    text-transform: capitalize;
+    color: white;
+  }
+
+
+  .features {
+    height: 150px;
+    list-style: none;
+    padding: 8px;
+    margin: 0 0 2rem 0;
+    flex-grow: 1;
+    text-align: left;
+    color: white;
+  }
+
+  .features li {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  #btn2 {
+    background: white;
+    color: #e00000;
+  }
+
+
+  .bbbb {
+    display: flex;
+  }
+    #name{
+      font-weight: 400;
+    }
+
+    .cta{
+      background: #e00000;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform:capitalize;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 25px;
+    transition: background 0.2s ease-in-out;
+    }
+    .cta:hover{
+      background: #a40808;
+    }
+    .cta:active{
+      background: #810a0a;
+    }

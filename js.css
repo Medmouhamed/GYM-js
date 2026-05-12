@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+
+.crud {
+  width: 90%;
+  max-width: 1000px;
+  background: #1a1a1a;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.head h2 {
+  color: #e50914;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.head p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input input {
+  background: #3b3a3a;
+  border: 1px solid #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 0.95rem;
+  transition: 0.3s;
+}
+
+.input input:focus {
+  border-color: #e50914;
+  box-shadow: 0 0 5px #e50914;
+}
+
+.bmi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.bmi input {
+  flex: 1;
+}
+
+#bmi {
+  background: #e50914;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e50914;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff1e27;
+  box-shadow: 0 0 10px #e50914;
+}
+
+#submit {
+  margin-top: 5px;
+}
+
+.searchblock {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#search {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #222;
+  color: #fff;
+}
+
+.btnsearch {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.btnsearch button {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #181818;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+th {
+  background: #e50914;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+td {
+  color: #ddd;
+}
+
+tr:hover {
+  background: rgba(229, 9, 20, 0.1);
+}
+
+#update {
+  background: #007bff;
+}
+
+#update:hover {
+  background: #3399ff;
+  box-shadow: 0 0 10px #007bff;
+}
+
+#delete {
+  background: #e50914;
+}
+
+#delete:hover {
+  background: #ff1e27;
+}
+
+#deleteAll {
+  margin: 20px 0;
+}
+
+#deleteAll button {
+  width: 100%;
+  background: #e50914;
+  font-size: 1.1rem;
+}
+
+

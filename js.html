@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Management</title>
+  <link rel="stylesheet" href="js.css">
+</head>
+<body>
+  <div class="crud">
+    <div class="head">
+      <h2>OUR GYM MEMBERS</h2>
+    </div>
+
+    <div class="input">
+      <input type="text" id="name" placeholder="Name">
+      <input type="text" id="program" placeholder="Program">
+      <div class="bmi">
+        <input onkeyup="calculateBMI()" type="number" id="height" placeholder="Height (cm)">
+        <input onkeyup="calculateBMI()" type="number" id="weight" placeholder="Weight (kg)">
+        <small id="bmi"></small>
+      </div>
+      <input type="text" id="subscription" placeholder="plan">
+      <button id="submit">Create</button>
+    </div>
+
+    <div class="output">
+      <div class="searchblock">
+        <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="search">
+        <div class="btnsearch">
+          <button onclick="getSearchMood(this.id)" id="searchName">Search by Name</button>
+          <button onclick="getSearchMood(this.id)" id="searchProgram">Search by Program</button>
+        </div>
+        <div id="deleteAll"></div>
+
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Height</th>
+            <th>Weight</th>
+            <th>BMI</th>
+            <th>plan</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>
